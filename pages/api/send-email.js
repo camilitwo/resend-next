@@ -48,7 +48,7 @@ export default async (req, res) => {
             },
             body: JSON.stringify({
                 from: "onboarding@resend.dev",
-                to: "info@ibnchile.cl",
+                to: "camilo.igv@gmail.com",
                 subject: nombre + " te ha enviado un mensaje de contacto",
                 html: contenido_html
             })
