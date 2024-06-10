@@ -47,7 +47,7 @@ export default async (req, res) => {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                from: "onboarding@resend.dev",
+                from: "ibnchile@resend.dev",
                 to: "camilo.igv@gmail.com",
                 subject: nombre + " te ha enviado un mensaje de contacto",
                 html: contenido_html
