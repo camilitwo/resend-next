@@ -43,12 +43,12 @@ export default async (req, res) => {
         const response = await fetch('https://api.resend.com/emails', {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer re_SNBRPBR6_J5CPjRzadLJXa3AVPuu1836D',
+                'Authorization': 'Bearer re_c7p8FJEj_KnTNo4mbwkuohW7KyqHpEUUJ',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 from: "onboarding@resend.dev",
-                to: "camilo.igv@gmail.com",
+                to: "admisionibnchile@gmail.com",
                 subject: nombre + " te ha enviado un mensaje de contacto",
                 html: contenido_html
             })
